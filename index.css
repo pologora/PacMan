@@ -15,5 +15,30 @@ html,body {
 .grid div {
     width: 15px;
     height: 15px;
+}
+
+.pac-dot {
+    background-color: rgb(111, 172, 111);
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
     background-color: blue;
 }
+
+.power-pellet {
+    background-color: rgb(2, 66, 2);
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: red;
+    border: none;
+    border-radius: 7.5px;
+}
+
+.ghost-lair {
+    background-color: wheat;
+}
+
